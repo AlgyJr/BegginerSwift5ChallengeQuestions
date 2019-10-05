@@ -9,14 +9,9 @@ import Foundation
 class Challenge {
     
     func removeLowScores(fromStudents students: [String: Int]) -> [String] {
-        var positiveStudents = [String]()
         
-        for student in students {
-            if student.value > 50 {
-                positiveStudents.append(student.key)
-            }
-        }
-        return positiveStudents
+        return [String]()
+        
     }
     
 }

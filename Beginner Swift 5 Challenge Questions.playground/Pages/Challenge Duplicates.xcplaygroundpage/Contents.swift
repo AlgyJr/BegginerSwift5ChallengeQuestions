@@ -7,13 +7,9 @@
 class Challenge {
     
     func numberOfSkysIn(names: [String]) -> Int {
-        var times = 0
-        for name in names {
-            if name == "Sky" {
-                times += 1
-            }
-        }
-        return times
+        
+        return 1
+        
     }
     
 }
@@ -34,6 +30,6 @@ let result = challenge.numberOfSkysIn(names: xmenNames)
 
 if printMyResult { print("your code finds \(result) Skys in the array ['Storm', 'Wolverine', 'Sky', 'Jean', 'Mystique', 'Sky']. 2 Skys is the expected result.") }
 
-print(result == 2 ? "Test passed\nFound 'Sky' \(result) times" : "Test failed")
+print(result == 2 ? "Test passed" : "Test failed")
 
 //: [Next](@next)

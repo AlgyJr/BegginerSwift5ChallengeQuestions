@@ -7,24 +7,8 @@
 class Challenge {
     
     func fizzbuzz() -> [String] {
-        var valores = [String]()
         
-        for i in 1...100 {
-            print(i)
-            if i.isMultiple(of: 3) && i.isMultiple(of: 5) {
-                valores.append("FizzBuzz")
-            } else if i.isMultiple(of: 3) {
-                valores.append("Fizz")
-            } else if i.isMultiple(of: 5) {
-                valores.append("Buzz")
-            } else {
-                print("Entrou aqui")
-                valores.append(String(i))
-                print("Executou")
-            }
-        }
-        
-        return valores
+        return [String]()
         
     }
     

@@ -7,33 +7,15 @@
 class Challenge {
     
     func findHighest(inNumbers numbers: [Int]) -> Int? {
-        if numbers.count == 0 {
-            return nil
-        }
         
-        var highest = numbers[0]
+        return nil
         
-        for number in numbers {
-            if number > highest {
-                highest = number
-            }
-        }
-        return highest
     }
     
     func findLowest(inNumbers numbers: [Int]) -> Int? {
-        if numbers.count == 0 {
-            return nil
-        }
         
-        var lowest = numbers[0]
+        return nil
         
-        for number in numbers {
-            if number < lowest {
-                lowest = number
-            }
-        }
-        return lowest
     }
     
 }

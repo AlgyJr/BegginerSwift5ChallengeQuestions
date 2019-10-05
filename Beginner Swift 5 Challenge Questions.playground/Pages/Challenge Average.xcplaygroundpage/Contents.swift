@@ -9,17 +9,9 @@ import Foundation
 class Challenge {
     
     func getAverage(ofNumbers numbers: [Double]) -> Double {
-        if numbers.count == 0 {
-            return 0.0
-        }
         
-        var acum:Double = 0.0
+        return 0.0
         
-        for number in numbers {
-            acum += number
-        }
-        
-        return acum/Double(numbers.count)
     }
     
 }

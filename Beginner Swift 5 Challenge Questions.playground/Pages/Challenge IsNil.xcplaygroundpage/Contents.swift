@@ -6,7 +6,9 @@
 class Challenge {
 
     func isNil(_ testNumber: Int?) -> Bool {
-        return testNumber == nil
+        
+        return true
+        
     }
 
 }
@@ -17,7 +19,7 @@ class Challenge {
  Click the play button to test your code. There are two tests. All tests must pass. Change `printMyResult` to `true` if you would like to compare your result with the tests.
 */
 
-let printMyResult = true
+let printMyResult = false
 
 let challenge = Challenge()
 

@@ -9,17 +9,11 @@ import Foundation
 class Challenge {
     
     func makeSentence(from words: [String]) -> String {
-        var sentence = ""
         
-        for c in 0..<words.count {
-            if c != (words.count-1) {
-                sentence += words[c]+" "
-            } else {
-                sentence += words[c]
-            }
-        }
-        return sentence
+        return ""
+        
     }
+    
 }
 
 //##########################################################################
